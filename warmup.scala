@@ -11,6 +11,9 @@ object WarmUp {
 
     println("Ethan likes eating " + i.toString() + " hard boiled eggs")
   }
+
+  def addAndSub(a: Int, b: Int, c: Int) = a + b - c
+  
   def main(args: Array[String]): Unit = {
     // Function example
     ethanEatsHardboiledEggs(2)
@@ -23,6 +26,9 @@ object WarmUp {
     val spicyIntsGreaterThan5 = spicyListOfInts.filter(_ > 5)
     println("List of ints greater than 5 " + spicyIntsGreaterThan5)
 
-    // 
+    // Partial applications
+    val addAndsub4 = addAndSub(_:Int, 4, _:Int)
+    println("20 + 4 - 60 = " + addAndsub4(20, 60))
+
   }
 }
