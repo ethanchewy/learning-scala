@@ -1,0 +1,6 @@
+.bloop/*
+.gitignore.swp
+.metals/*
+.vscode/*
+project/*
+target/*
