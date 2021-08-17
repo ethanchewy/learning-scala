@@ -30,5 +30,7 @@ object WarmUp {
     val addAndsub4 = addAndSub(_:Int, 4, _:Int)
     println("20 + 4 - 60 = " + addAndsub4(20, 60))
 
+    // TODO: http://twitter.github.io/scala_school/basics.html + curried
+
   }
 }
